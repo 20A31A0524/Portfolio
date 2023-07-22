@@ -1,0 +1,43 @@
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/BannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:whitesmoke;
+}
+.bannerTitle{
+    font-size: 4rem;
+
+}
+.bannerDesc{
+    font-size:2rem;
+}
+
+.card{
+    cursor:pointer;
+}
+
+.card:hover{
+    background-color: #808080;
+    border:2px solid #000000;
+}
+.card-img-top{
+    height:50vh;
+
+}
+.fa {
+    padding: 2px;
+    font-size: 300px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1000%;
+  }
